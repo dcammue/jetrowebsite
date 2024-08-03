@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><img src="jetro_media/logo.JPG"> Jetro Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnavbar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>
+</head>
+<body>
+    <nav class="navbar" id="myTopnavbar">
+        <img class="logo" src="jetro_media/logo.JPG" alt="" class="logo">
+        <a href="contact.html"> Contact Us</a>
+        <a href="./ourwork.html" class="active">Our Work</a>
+        <a href="apprenticeship.html">Apprenticeships</a>
+          <div class="about">
+              <button class="aboutbtn">About Us 
+                  <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="about-content">
+                  <a href="aboutfolder/ourteam.html">Our Team</a>
+                  <a href="aboutfolder/ourvaule.html">Our Value</a>
+              </div>
+          </div> 
+          <a href="../index.html">Home</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <hr>
+
+    <!--Numbers-->
+    <section class="numbers">
+        <h1 class="num-text">We lead from front</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Perferendis totam qui eos odit vitae hic, odio dolor quae
+            omnis quibusdam maxime ut sit consequatur praesentium saepe
+            nihil vero similique. Quasi.
+        </p>
+        <div class="container2">
+            <div class="num-wrapper">
+                <div class="grid-box hpyclients">
+                    <h1>000+</h1>
+                    <h2>Happy Clients</h2>
+                </div>
+            
+                <div class="grid-box prjcompleted">
+                    <h1>000+</h1>
+                    <h2>Projects Completed</h2>
+                </div>
+                <div class="grid-box runingprj">
+                    <h1>000+</h1>
+                    <h2>Runing Projects</h2>
+                </div>
+                <div class="grid-box designs">
+                    <h1>000+</h1>
+                    <h2>Awersome Designs</h2>
+                </div>
+            </div>
+            <div class="mockup-img">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

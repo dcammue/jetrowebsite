@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><img src="./static/jetro_media/logo.JPG"> Jetro Website</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnavbar");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>
+</head>
+<body>
+    <nav class="navbar" id="myTopnavbar">
+        <img class="logo" src="../jetro_media/logo.JPG" alt="" class="logo">
+        <a href="../contact.html"> Contact Us</a>
+        <a href="../ourwork.html">Our Work</a>
+        <a href="../apprenticeship.html">Apprenticeships</a>
+          <div class="about">
+              <button id="active" class="aboutbtn" >About Us 
+                  <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="about-content">
+                  <a href="ourteam.html" class="active">Our Team</a>
+                  <a href="ourvaule.html">Our Value</a>
+              </div>
+          </div> 
+          <a href="../../index.html">Home</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <hr>
+    <section class="team">
+        <h1 class="team-top">Meet Our Team</h1>
+         <div class="grid-wrapper">
+             <div class="team-mem">
+                 <img src="../jetro_media/tb7.jpeg">
+                 <h1>John Smith</h1>
+                 <h2>Member and founder</h2>
+             </div>
+             <div class="team-mem">
+                 <img src="../jetro_media/tb1.jpeg">
+                 <h1>John Smith</h1>
+                 <h2>Member and founder</h2>
+             </div>
+             <div class="team-mem">
+                 <img src="../jetro_media/tb7.jpeg">
+                 <h1>John Smith</h1>
+                 <h2>Member and founder</h2>
+             </div>
+             <div class="team-mem">
+                 <img src="../jetro_media/tb7.jpeg">
+                 <h1>John Smith</h1>
+                 <h2>Member and founder</h2>
+             </div>
+         </div>    
+     </section>
+     <script src="../JS/script.js"></script>
+    
+</body>
+</html>
