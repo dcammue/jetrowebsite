@@ -47,18 +47,12 @@ Answer: the church members children will be the first to enroll in the school.
 | 1    | Feeding for jetroweb members and Jeffery Elkner   | 600.00 USD     |600.00 USD   |
 | 2    | Compensation for jetroweb members                 | 800.00 USD     | 800.00 USD  |
 | 3    | Community chairmen transportation                 | 40.00 USD      | 40.00 USD   |
-| 4    | Payment made for attending online meeting         | 105.00 USD     | 130.00 USD  |
+| 4    | Payment made for attending online meeting         | 130.00 USD     | 130.00 USD  |
 | 5    | One MTN ROUTER                                    | 80.00 USD      | 80.00 USD   |
 | 6    | Recharge router                                   | 50.00 USD      | 50.00 USD   |
-| 7    | Transportation for the land meeting               | 6.00 USD       | 3.00 USD    |
-| 8    | paster Gaye transportation                        | 4.00 USD       | 2.00 USD    |
-| 9    | Jeff Beer                                         | 10. USD        | 10.00 UsD   |
-| 10   | scooper                                           | 60.00 USD      | 50.00 USD   |
-| 11   | Deposite to Jetroweb account                      | 500.00 USD     | 500.00 USD  |
-| 12   | scooper owd jetroweb                              | 30.00 USD      | 30.00 USD   |
-| 13   | transportation for Jeff to the airport            | 10.00 USD      | 10.00 USD   |
-| 14   | jetroweb owd dcammue for router purchase          | 25.00 USD      | 25.00 USD   |
+| 7    | scooper pycom africa ticket                       | 60.00 USD      | 60.00 USD   |
+| 8    | Deposite to Jetroweb account                      | 500.00 USD     | 500.00 USD  |
 |      |                                                   |                |             |
-|      |                             Total                 |                | 2,270.00 USD|
+|      |                             Total                 |                | 2,260.00 USD|
 |      |                                                   |                |             |
-|      |                         Balance                   |                | 30.00 USD  |
+|      |                         Balance                   |                | 40.00 USD  |
