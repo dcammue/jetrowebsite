@@ -129,7 +129,7 @@ body h1{
 }
 
 .hero-imgs{
-    width: 50%;
+    width: 5%;
     margin-right: 1%;
     padding-left: 0%;
     margin-left: 1%;
@@ -222,14 +222,14 @@ body h1{
     /* margin-left: 15rem; */
     font-size: 6vmin;
     text-align: center;
-    color: whitesmoke;
+    color: black;
 }
 .tech-pragh{
     /* max-width: 40rem; */
     margin: 40px 20px;
     /* font-size: 3; */
     text-align: center;
-    color: white;
+    color: black;
 }
 .container{
     padding: 3rem;
@@ -237,13 +237,6 @@ body h1{
 
 }
 
-
-.container1{
-    display: block;
-}
-.grid-wrapper{
-    flex-basis: 100%;
-}
 .grid-box{
     background: darkslategray;
     height: 200px;
@@ -251,12 +244,7 @@ body h1{
     text-align: center;
     border-radius: 5px;   
 }
-.grid-wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    grid-gap: 2em;
-    padding: 2rem;
-}
+
 .grid-box img{
     width: 80px;
     height: 80px;
@@ -419,7 +407,15 @@ body h1{
     border-radius: 50px;
 }
 
-
+.grid-wrapper{
+    flex-basis: 100%;
+}
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-gap: 2em;
+    padding: 2rem;
+}
 
 .grid-wrapper{
     width: 80%;
@@ -690,7 +686,7 @@ body h1{
 
     .hpyclients{
         padding-left: 15%;
-        background-color: chocolate;
+        background-color: wheat;
     }
 
 
@@ -717,7 +713,7 @@ body h1{
     .team-mem img{
     width: 150px;
     height: 100px;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-bottom: 10px;
     border-radius: 20px;
     }
@@ -728,15 +724,14 @@ body h1{
 
     .team-mem{
         width: 70%;
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
     .team-mem{
         padding: 2rem;
         text-align: center;
         border-radius: 5px;
-        background-color: lightcoral;
-        display: grid;
+        display: block;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
